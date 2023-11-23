@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mental Health Org.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      * {
+        font-family: 'Inter', sans-serif;
+      }
+
+      p {
+        font-family: 'DM Sans', sans-serif;
+      }
+
+      #homeButton {
+        transition: opacity 0.3s, visibility 0.3s;
+      }
+
+      ::-webkit-scrollbar-track
+      {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: #F5F5F5;
+      }
+
+      ::-webkit-scrollbar
+      {
+        width: 12px;
+        background-color: #F5F5F5;
+      }
+
+      ::-webkit-scrollbar-thumb
+      {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(155, 155, 155, 0.3);
+        background-color: rgb(128, 128, 128);
+}
+    </style>
+  </head>
+  <body>
+    <div class="w-full h-screen bg-[url(img/hero.png)] bg-cover bg-no-repeat bg-center">
+      <nav class="bg-transparent">
+        <div class="mx-auto container">
+          <div class="relative flex h-20 items-center justify-between">
+            <div class="flex flex-1 items-stretch justify-start">
+              <div class="flex flex-shrink-0 items-center">
+                <img class="h-12 w-auto" src="img/logo.png" alt="logo">
+              </div>
+              <div class="block my-auto ml-10">
+                <div class="flex space-x-10">
+                  <a href="#OURWORK" class="text-white hover:underline">Our work</a>
+                  <a href="#GETINVOLVED" class="text-white hover:underline">Get involved</a>
+                  <a href="#EXPLORE" class="text-white hover:underline">Explore mental health</a>
+                  <a href="#ABOUTUS" class="text-white hover:underline">About us</a>
+                </div>
+              </div>
+            </div>
+            <div class="absolute inset-y-0 right-0 flex items-center pr-2 space-x-2">
+              <a href="#" class="rounded-full border py-1 px-4 text-white hover:bg-white hover:text-black transition">
+                Get Help
+              </a>
+              <a href="#" class="bg-white rounded-full border py-1 px-4 text-fuchsia-600 hover:bg-transparent hover:text-white transition">
+                Donate
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="flex justify-end max-w-7xl mx-auto mt-28">
+        <div class="max-w-2xl">
+          <h1 class="text-white text-8xl leading-relaxed">
+            Good <span class="border border-4 rounded-3xl px-4">Mental</span> <span class="border border-4 rounded-3xl px-4">Health</span> for all
+          </h1>
+          <div class="flex space-x-2 mt-6">
+            <a href="#" class="rounded-full border text-lg py-1 px-6 text-white hover:bg-white hover:text-black transition">
+              Get Help
+            </a>
+            <a href="#" class="bg-white rounded-full border text-lg py-1 px-6 text-fuchsia-600 hover:bg-transparent hover:text-white transition">
+              Donate
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="OURWORK" class="bg-neutral-900 py-36">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-3">
+          <div class="bg-white rounded-lg w-[30rem]">
+            <div class="p-4">
+              <img class="w-[28rem] rounded-xl h-[18.7rem]" src="img/cards/event.jpg" alt="Event">
+              <div class="pb-2">
+                <h2 class="font-semibold pt-6 pb-2 text-xl">
+                  Programmes
+                </h2>
+                <p class="text-zinc-500 pb-16">
+                  We test and evaluate the best approaches to improving mental health in communities across the UK and then roll them out as widely as possible.
+                </p>
+                <a href="#" class="rounded-full border py-2 px-6 text-black hover:bg-black hover:text-white transition">
+                  More details
+                </a>
+              </div>
+            </div>           
+          </div>
+          <div class="bg-white rounded-lg w-[30rem]">
+            <div class="p-4">
+              <img class="w-[28rem] rounded-xl h-[18.7rem]" src="img/cards/zoom.jpg" alt="Event">
+              <div class="pb-2">
+                <h2 class="font-semibold pt-6 pb-2 text-xl">
+                  Research
+                </h2>
+                <p class="text-zinc-500 pb-16">
+                  We publish studies and reports on what protects mental health as well as the causes of poor mental health and how to tackle them.
+                </p>
+                <a href="#" class="rounded-full border py-2 px-6 text-black hover:bg-black hover:text-white transition">
+                  More details
+                </a>
+              </div>
+            </div>           
+          </div>
+          <div class="bg-white rounded-lg w-[30rem] ">
+            <div class="p-4">
+              <img class="w-[28rem] rounded-xl h-[18.7rem]" src="img/cards/pen.png" alt="Event">
+              <div class="pb-2">
+                <h2 class="font-semibold pt-6 pb-2 text-xl">
+                  Publicity
+                </h2>
+                <p class="text-zinc-500 pb-16">
+                  We publish studies and reports on what protects mental health as well as the causes of poor mental health and how to tackle them.
+                </p>
+                <a href="#" class="rounded-full border py-2 px-6 text-black hover:bg-black hover:text-white transition">
+                  More details
+                </a>
+              </div>
+            </div>           
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="GETINVOLVED" class="py-36">
+      <div class="container mx-auto">
+        <div class="text-center mx-auto max-w-4xl">
+          <h2 class="text-3xl">
+            We work to make a world where there is good mental health for all – but we can’t do it without
+          </h2>
+          <p class="text-7xl text-cyan-800 font-bold mt-2">
+            YOU!
+          </p>
+        </div>
+        <div class="flex gap-8 justify-center pt-10">
+          <div class="bg-[url('img/cards-2/ribbon.png')] flex flex-col justify-between p-6 w-[36rem] h-[24rem] rounded-3xl">
+            <div class="flex justify-between">
+              <h2 class="text-white w-48 font-semibold text-left text-xl">
+                Show your support by wearing a green ribbon
+              </h2>
+              <img class="w-12 h-fit rotate-90" src="img/icons/arrowWhite.png" alt="SipkaBila">
+            </div>
+            <a href="#" class="rounded-full py-2 px-6 w-fit text-white bg-black hover:bg-white hover:text-black transition">
+              Join the green ribbon movement
+            </a>          
+          </div>
+          <div class="bg-[url('img/cards-2/donation.jpg')] flex flex-col justify-between p-6 w-[36rem] h-[24rem] rounded-3xl">
+            <div class="flex justify-between">
+              <h2 class="text-white w-48 font-semibold text-left text-xl">
+                Ways to donate
+              </h2>
+              <img class="w-12 h-fit rotate-90" src="img/icons/arrowWhite.png" alt="SipkaBila">
+            </div>
+            <a href="#" class="rounded-full py-2 px-6 w-fit text-white bg-black hover:bg-white hover:text-black transition">
+              Find out all ways you can donate
+            </a>          
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="EXPLORE" class="bg-neutral-900 pt-32 pb-40">
+      <div class="container mx-auto pb-24">
+        <p class="text-white text-2xl">
+          Explore our content and resources designed to give you more information about mental health and mental health problems, how to look after your mental health and supporting someone else with their mental health,and helping prevent mental ill-health from developing in the first place.
+        </p>
+      </div>
+      <div class="container mx-auto">
+        <div class="grid grid-cols-3">
+          <div class="bg-white rounded-lg w-[30rem]">
+            <div class="p-4">
+              <div class="pb-2">
+                <h2 class="font-semibold pt-6 pb-2 text-xl">
+                  Factors that affect mental health
+                </h2>
+                <p class="text-zinc-500 pb-28">
+                  Learn more about the different biological, psychological, and social factors that can impact your mental health.
+                </p>
+                <a href="#" class="rounded-full border py-2 px-6 text-black hover:bg-black hover:text-white transition">
+                  More details
+                </a>
+              </div>
+            </div>           
+          </div>
+          <div class="bg-white rounded-lg w-[30rem]">
+            <div class="p-4">
+              <div class="pb-2">
+                <h2 class="font-semibold pt-6 pb-2 text-xl">
+                  Getting help for your mental Health
+                </h2>
+                <p class="text-zinc-500 pb-28">
+                  Find out how you can help yourself, what external support is available, and what to do in a crisis.
+                </p>
+                <a href="#" class="rounded-full border py-2 px-6 text-black hover:bg-black hover:text-white transition">
+                  More details
+                </a>
+              </div>
+            </div>           
+          </div>
+          <div class="bg-white rounded-lg w-[30rem]">
+            <div class="p-4">
+              <div class="pb-2">
+                <h2 class="font-semibold pt-6 pb-2 text-xl">
+                  Mental health within different communities
+                </h2>
+                <p class="text-zinc-500 pb-28">
+                  Discover mental health information, tips, and advice that's relevant for different groups of people.
+                </p>
+                <a href="#" class="rounded-full border py-2 px-6 text-black hover:bg-black hover:text-white transition">
+                  More details
+                </a>
+              </div>
+            </div>           
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="ABOUTUS" class="container mx-auto pb-32 max-w-7xl">
+      <h2 class="text-6xl font-semibold pt-32 pb-8">
+          About Us
+      </h2>
+      <div class="grid grid-cols-2 pt-8">
+          <div>
+              <h2 class="text-2xl font-semibold pb-4">
+                  What we do
+              </h2>
+              <ul class="text-lg max-w-xl -ml-[2rem]">
+                  <li class="pt-2 pb-4 flex"><img src="img/icons/arrowBlack.png" alt="Arrow" class="h-7 w-7 mr-6 -ml-4">We test and evaluate the best approaches to improving mental health in communities and then roll them out as widely as possible.</li>
+                  <li class="py-4 flex"><img src="img/icons/arrowBlack.png" alt="Arrow" class="h-7 w-7 mr-6 -ml-4">We publish studies and reports on what protects mental health and the causes of poor mental health and how to tackle them.</li>
+                  <li class="py-4 flex"><img src="img/icons/arrowBlack.png" alt="Arrow" class="h-7 w-7 mr-6 -ml-4">We give advice to millions of people on mental health. We are most well known for running Mental Health Awareness Week across the UK each year.</li>
+                  <li class="py-4 flex"><img src="img/icons/arrowBlack.png" alt="Arrow" class="h-7 w-7 mr-6 -ml-4">We propose solutions and campaign for change to address the underlying causes of poor mental health.</li>
+              </ul>
+          </div>
+          <div class="ml-auto">
+              <h2 class="text-2xl font-semibold pb-4">
+                  What we don't do
+              </h2>
+              <ul class="text-lg max-w-xl -ml-[2rem]">
+                  <li class="pt-2 pb-4 flex"><img src="img/icons/arrowBlack.png" alt="Arrow" class="h-7 w-7 mr-6 -ml-4">We are not an academic think tank or research institute. We generate and apply evidence in real-world settings.</li>
+                  <li class="py-4 flex"><img src="img/icons/arrowBlack.png" alt="Arrow" class="h-7 w-7 mr-6 -ml-4">We are not a mental health service provider for when people are unwell.</li>
+                  <li class="py-4 flex"><img src="img/icons/arrowBlack.png" alt="Arrow" class="h-7 w-7 mr-6 -ml-4">We don't only focus on individual actions and steps - we look at both the personal and societal changes that can improve and protect everyone’s mental health.</li>
+              </ul>
+          </div>
+      </div>
+    </div>
+    <footer class="bg-neutral-900">
+      <div class="container mx-auto pt-16 pb-4 max-w-7xl">
+        <div class="flex justify-between pb-6">
+            <ul class="text-white space-y-2 font-bold">
+                <li>
+                    <p class="text-white font-bold">Solutions</p>
+                </li>
+                <li>
+                    <p class="font-extralight">Marketing</p>
+                </li>
+                <li>
+                    <p class="font-extralight">Analytics</p>
+                </li>
+                <li>
+                    <p class="font-extralight">Commerce</p>
+                </li>
+                <li>
+                    <p class="font-extralight">Insights</p>
+                </li>
+            </ul>
+            <ul class="text-white space-y-2 font-bold">
+              <li>
+                  <p class="text-white me-4 font-bold">Support</p>
+              </li>
+              <li>
+                  <p class="font-extralight">Pricing</p>
+              </li>
+              <li>
+                  <p class="font-extralight">Documentation</p>
+              </li>
+              <li>
+                  <p class="font-extralight">Guides</p>
+              </li>
+              <li>
+                  <p class="font-extralight">API Status</p>
+              </li>
+            </ul>
+            <ul class="items-center text-white space-y-2">
+              <li>
+                  <p class="text-white me-4 font-bold">Company</p>
+              </li>
+              <li>
+                  <p class="font-extralight">About</p>
+              </li>
+              <li>
+                  <p class="font-extralight">Blog</p>
+              </li>
+              <li>
+                  <p class="font-extralight">Jobs</p>
+              </li>
+              <li>
+                  <p class="font-extralight">Press</p>
+              </li>
+              <li>
+                  <p class="font-extralight">Partners</p>
+              </li>
+            </ul>
+            <ul class="items-center text-white space-y-2">
+              <li>
+                <p class="text-white me-4 font-bold">Legal</p>
+            </li>
+            <li>
+                <p class="font-extralight">Claim</p>
+            </li>
+            <li>
+                <p class="font-extralight">Privacy</p>
+            </li>
+            <li>
+                <p class="font-extralight">Terms</p>
+            </li>
+            </ul>
+            <div class="max-w-xl">
+              <h2 class="text-3xl  font-bold tracking-tight text-white">Subscribe to our newsletter.</h2>
+                <div class="mt-4 flex max-w-md gap-x-2">
+                  <label for="email-address" class="sr-only">Email address</label>
+                  <input id="email-address" name="email" type="email" autocomplete="email" required class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" placeholder="Enter your email">
+                  <button type="submit" class="flex-none rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-cyan-800 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Subscribe</button>
+                </div>
+            </div>
+        </div>
+          <hr class="border-gray-200 pb-4 mt-8"/>
+          <span class="block text-sm text-white opacity-50 text-center pb-8 pt-4">
+            © 2023 Mental Health Org™ All Rights Reserved.
+          </span>
+      </div>
+    </footer>
+      <div id="homeButton" class="hidden fixed bottom-6 right-6 bg-white p-4 rounded-full cursor-pointer shadow-2xl">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6 text-black ">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+        </svg>
+      </div>
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          var homeButton = document.getElementById('homeButton');
+      
+          function toggleHomeButton() {
+            if (window.scrollY > 700) {
+              homeButton.classList.remove('hidden');
+            } else {
+              homeButton.classList.add('hidden');
+            }
+          }
+      
+          toggleHomeButton();
+      
+          window.addEventListener('scroll', toggleHomeButton);
+      
+          homeButton.addEventListener('click', function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          });
+        });
+      </script>
+  </body>
+</html>
